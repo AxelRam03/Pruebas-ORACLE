@@ -1,0 +1,18 @@
+# Secrets and local environment
+.env
+.env.*
+!.env.example
+.vault_pass
+*.pem
+*.key
+
+# Ansible local artifacts
+*.retry
+*.log
+inventory/local*
+!inventory/local.example
+
+# Editor and OS files
+.DS_Store
+.vscode/
+.idea/
